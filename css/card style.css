@@ -1,0 +1,68 @@
+body {
+    font-family: cursive;
+    background-color: rgb(4, 4, 41);
+    color: white;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.6);
+    transition: 0.4s;
+    border-radius: 0.8rem;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 330px;
+    z-index: 1020;
+}
+img {
+    border-radius: 0.5rem;
+    width: 290px;
+}
+.container {
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    color: gray;
+    font-size: 16px;
+}
+.container h3 a:hover {
+    color: color: #00FFF8;
+}
+.container img {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.info a:hover {
+    color: #00FFF8;
+}
+
+
+.maker {
+    display: inline;
+    padding-bottom: auto;
+    margin-top: 20px;
+}
+.maker img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+.maker a::hover {
+    color: color: #00FFF8;;
+}
